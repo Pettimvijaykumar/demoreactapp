@@ -1,0 +1,141 @@
+/* faculty.css */
+
+.faculty-login-contain {
+  background-image: url('https://source.unsplash.com/featured/?academic,student,registration'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust this according to your layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensure the container takes up the full viewport height */
+  
+}
+
+.contain {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 20px solid rgb(28, 137, 220); /* Red border with a width of 20px */
+  border-radius: 8px;
+  background-color: rgba(249, 243, 243, 0.8); /* Background color with opacity */
+  box-shadow: 0px 0px 10px rgba(211, 11, 11, 0.1); /* Add a shadow effect */
+  transform: translate(0%, 25%);
+  animation: slideDown 1s ease-in-out;
+}
+
+
+/* Additional styles */
+.contain h3 {
+  color: #fd0fdd; /* Dark text color */
+  font-size: 25px; /* Larger font size */
+}
+
+
+
+form {
+    margin: auto;
+    width: 300px;
+    text-align: center; 
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center; 
+  }
+  
+  input[type='text'],
+  input[type='password'],
+  input[type='number'],
+  input[type='email'],
+  input[type='id'],
+  select,
+  input[type='date'],
+  textarea {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button[type='submit'] {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  button[type='submit']:hover {
+    background-color: #555;
+  }
+  .container {
+    
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transform: translate(0%,25%);
+    animation: slideDown 1s ease-in-out;
+
+  }
+
+  @keyframes slideDown{
+    from{
+      opacity:0;
+    }
+    to{
+      opacity:1
+    }
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-container input[type="email"],
+  .input-container input[type="password"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+  .faculty-login-container {
+    background-image: url('https://source.unsplash.com/featured/?academic,faculty,registration'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+  }
+  
+  

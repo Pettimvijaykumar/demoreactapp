@@ -1,0 +1,134 @@
+/* student.css */
+
+.student-login-container {
+  background-image: url('https://source.unsplash.com/featured/?academic,student,registration'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+  
+}
+
+
+
+.container {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 20px solid rgb(77, 37, 206); 
+  border-radius: 20px;
+  background-color: rgba(237, 195, 220, 0.8); 
+  box-shadow: 0px 0px 10px rgba(196, 27, 27, 0.1); 
+  transform: translate(0%, 25%);
+  animation: slideDown 1s ease-in-out;
+}
+
+
+/* Additional styles */
+.container h3 {
+  color: #f40973; 
+  font-size: 24px; 
+}
+
+.input-container {
+  margin-bottom: 20px; 
+}
+
+.label {
+  font-weight: bold; 
+}
+
+.input-container input[type="email"],
+.input-container input[type="password"] {
+  
+  width: calc(100% - 20px); 
+  padding: 10px; 
+}
+
+.button {
+  width: 100%;
+  padding: 12px; 
+  background-color: #007bff;
+  color: #d41515;
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  
+}
+
+.button:hover {
+  background-color: #0ec621; 
+}
+
+/* StudentRegistration.css */
+
+/* Style for the registration container */
+.registration-container {
+  background-color: #f4f4f4; /* Set background color */
+  padding: 20px; /* Add padding for better spacing */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  max-width: 400px; /* Set maximum width to center the form */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+/* Style for the form headings */
+h3 {
+  text-align: center; /* Center align the heading */
+}
+
+/* Style for form labels */
+label {
+  display: block; /* Display labels as blocks for better spacing */
+  margin-bottom: 5px; /* Add margin bottom for spacing between labels and inputs */
+}
+
+/* Style for form inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+input[type="date"] {
+  width: 100%; /* Set input width to 100% */
+  padding: 10px; /* Add padding for better appearance */
+  margin-bottom: 15px; /* Add margin bottom for spacing between inputs */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+/* Style for the register button */
+button[type="submit"] {
+  width: 100%; /* Set button width to 100% */
+  padding: 10px; /* Add padding for better appearance */
+  background-color: #007bff; /* Set background color */
+  color: #fff; /* Set text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+
+/* Style for error and success messages */
+.message {
+  text-align: center; /* Center align the message */
+  margin-top: 10px; /* Add margin top for spacing */
+}
+
+.error {
+  color: red; /* Set error message color to red */
+}
+
+.success {
+  color: green; /* Set success message color to green */
+}
+
+/* Media query for responsive design */
+@media (max-width: 480px) {
+  .registration-container {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}
+
+
+
+

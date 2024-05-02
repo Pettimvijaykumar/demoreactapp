@@ -1,0 +1,71 @@
+.admin-login-containers {
+  background-image: url('https://source.unsplash.com/featured/?academic,student,registration'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+  
+}
+
+
+.containers {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 20px solid rgb(247, 209, 17); 
+  border-radius: 8px;
+  background-color: rgba(218, 201, 201, 0.8);
+  box-shadow: 0px 0px 10px rgba(211, 11, 11, 0.1); 
+  transform: translate(0%, 25%);
+  animation: slideDown 1s ease-in-out;
+}
+
+
+/* Additional styles */
+.containers h3 {
+  color: #ed0e0e; 
+  font-size: 25px; /* Larger font size */
+} */
+
+form {
+  margin: auto;
+  width: 300px;
+  text-align: center; 
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: center; 
+}
+
+input[type='text'],
+input[type='password'],
+input[type='number'],
+input[type='email'],
+select,
+input[type='date'],
+textarea {
+  width: calc(100% - 40px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #e11111;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type='submit'] {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type='submit']:hover {
+  background-color: #555;
+}

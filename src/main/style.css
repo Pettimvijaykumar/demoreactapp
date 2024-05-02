@@ -1,0 +1,127 @@
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav {
+ 
+  background-image: linear-gradient(to right, #ff6600, #ff8c00, #ffae42, #ffcf75, #474343);
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav::after {
+  content: '';
+  display: block;
+  border-top: 5px solid rgb(15, 2, 2); 
+  border-bottom: 1px solid white;
+  margin-top: 2px; 
+}
+
+
+nav a {
+  display: inline-block;
+  padding: 19px 30px;
+  text-decoration: none;
+  color: rgb(21, 20, 20);
+  font-size: 20px; /* Adjust the font size */
+  border-radius: 5px;
+  transition: background-color 0.8s, border-color 0.8s;
+}
+
+nav a:hover {
+  background-color: #c91515;
+  border-color: #fff;
+}
+
+nav ul {
+  text-align: right;
+}
+
+nav li {
+  display: inline;
+  margin-right: 30px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Style for buttons */
+.button {
+  background-color: rgb(7, 2, 2);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+input[type=text], input[type=password], input[type=number], input[type=email], select, input[type=date], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-weight: bold;
+}
+/* 
+body {
+  background-image: url("img1.jpg");
+  background-color: #cccccc;
+  background-size: cover; 
+} */
+
+
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffe3a3;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffae42;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.login {
+  padding: 12px 16px;
+  cursor: pointer;
+  color: white; 
+}
